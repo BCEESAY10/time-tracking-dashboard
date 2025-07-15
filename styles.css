@@ -210,3 +210,19 @@ body{
     align-items: center;
     justify-content: space-between;
 }
+
+.container .card .bottom{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container .card .bottom h1{
+    font-weight: var(--font-bold);
+}
+
+.container .card .bottom p{
+    font-size: small;
+    color: var(--navy-200);
+}
