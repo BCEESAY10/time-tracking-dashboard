@@ -203,3 +203,10 @@ body{
     margin-top: 1.5em;
     z-index: 10;
 }
+
+.container .card .top{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
