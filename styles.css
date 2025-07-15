@@ -35,4 +35,21 @@ body{
     color: var(--white);
     font-size: var(--font-size);
     font-family: var(--font-family);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 70vw;
+    height: 100vh;
+    overflow: hidden;
+    display: grid;
+    gap: 1em;
+}
+
+.container article{
+    padding: 1em;
+    background-color: var(--navy-900);
+    width: 13em;
 }
