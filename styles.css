@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 *{
     margin: 0;
@@ -20,4 +20,16 @@
     --navy-900: hsl(235, 46%, 20%);
     --purple-500: hsl(235, 45%, 61%);
     --navy-200: hsl(236, 100%, 87%);
+
+    --white: hsl(50, 10%, 100%);
+
+    --font-size: clamp(16px, 1.8vw, 18px);
+    --font-family: "Rubik", sans-serif;
+}
+
+body{
+    background-color: var(--navy-950);
+    color: var(--white);
+    font-size: var(--font-size);
+    font-family: var(--font-family);
 }
