@@ -93,3 +93,33 @@ body{
 .container .filters button:active, .container .filters button:hover{
     color: var(--white);
 }
+
+.container article:nth-child(2){
+    background-color: var(--orange-300-work);
+    padding: 1em;
+}
+
+.container article:nth-child(3) {
+    background-color: var(--blue-300-play);
+    padding: 1em;
+}
+
+.container article:nth-child(4) {
+    background-color: var(--pink-400-study);
+    padding: 1em;
+}
+
+.container article:nth-child(5) {
+    background-color: var(--green-400-exercise);
+    padding: 1em;
+}
+
+.container article:nth-child(6) {
+    background-color: var(--purple-700-social);
+    padding: 1em;
+}
+
+.container article:nth-child(7) {
+    background-color: var(--yellow-300-selfcare);
+    padding: 1em;
+}
