@@ -51,8 +51,27 @@ body{
 }
 
 .container article{
-    padding: 1em;
     background-color: var(--navy-900);
     width: 100%;
     /* width: 13em; */
+    border-radius: 1em;
+}
+
+.container .profile figure{
+    background-color: var(--purple-600);
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    padding: 1em;
+    border-radius: 1em;
+}
+
+.container .profile figcaption{
+    display: flex;
+    flex-direction: column;
+}
+
+.container .profile img{
+    border: 2px solid var(--white);
+    border-radius: 50%;
 }
