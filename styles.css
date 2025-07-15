@@ -25,6 +25,9 @@
 
     --font-size: clamp(16px, 1.8vw, 18px);
     --font-family: "Rubik", sans-serif;
+    --font-light: 300;
+    --font-regular: 400;
+    --font-bold: 500;
 }
 
 body{
