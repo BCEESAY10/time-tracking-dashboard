@@ -43,7 +43,6 @@ body{
 .container{
     width: 70vw;
     height: auto;
-    /* height: 100vh; */
     padding: 3em 0;
     display: grid;
     justify-items: center;
@@ -53,7 +52,6 @@ body{
 .container article{
     background-color: var(--navy-900);
     width: 100%;
-    /* width: 13em; */
     border-radius: 1em;
 }
 
@@ -231,6 +229,9 @@ body{
         Responsive for Tablet
 ---------------------------------------- */
 @media screen and (min-width: 48em) {
+    body{
+        height: 100vh;
+    }
     .container{
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(3, 1fr);
