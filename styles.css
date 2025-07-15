@@ -114,26 +114,86 @@ body{
 .container article:nth-child(3) {
     background-color: var(--blue-300-play);
     padding-top: 1em;
+    position: relative;
+    z-index: -10;
+}
+
+.container article:nth-child(3)::after {
+    content: url('images/icon-play.svg');
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: auto;
+    height: auto;
+    z-index: -1;
 }
 
 .container article:nth-child(4) {
     background-color: var(--pink-400-study);
     padding-top: 1em;
+    position: relative;
+    z-index: -10;
+}
+
+.container article:nth-child(4)::after {
+    content: url('images/icon-study.svg');
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: auto;
+    height: auto;
+    z-index: -1;
 }
 
 .container article:nth-child(5) {
     background-color: var(--green-400-exercise);
     padding-top: 1em;
+    position: relative;
+    z-index: -10;
+}
+
+.container article:nth-child(5)::after {
+    content: url('images/icon-exercise.svg');
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: auto;
+    height: auto;
+    z-index: -1;
 }
 
 .container article:nth-child(6) {
     background-color: var(--purple-700-social);
     padding-top: 1em;
+    position: relative;
+    z-index: -10;
+}
+
+.container article:nth-child(6)::after {
+    content: url('images/icon-social.svg');
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: auto;
+    height: auto;
+    z-index: -1;
 }
 
 .container article:nth-child(7) {
     background-color: var(--yellow-300-selfcare);
     padding-top: 1em;
+    position: relative;
+    z-index: -10;
+}
+
+.container article:nth-child(7)::after {
+    content: url('images/icon-self-care.svg');
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: auto;
+    height: auto;
+    z-index: -1;
 }
 
 .container article .card{
