@@ -329,7 +329,7 @@ body{
     }
 
     .container article:nth-child(6) {
-        grid-template-rows: 2;
+        grid-row-start: 2;
         grid-column-start: 3;
     }
 
