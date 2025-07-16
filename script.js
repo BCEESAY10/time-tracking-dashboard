@@ -1,3 +1,11 @@
+// ---------------------------------------------
+// JS File 
+// .............................................
 
+const filterButtons = document.querySelectorAll('button');
 
-alert("Hi")
+filterButtons.forEach(button => {
+    button.addEventListener('click', () => {
+        alert("Good")
+    })
+});
