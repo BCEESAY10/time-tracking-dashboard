@@ -4,18 +4,24 @@
 
 const filterButtons = document.querySelectorAll('button');
 
+let data;
+
 // Fectching Data
-fetch('/data.json').then((response) => {  
-  if(!response.ok) return console.log('Oops! Something went wrong.');
-  
-  return response.json();
-}).then((data) => {
-  console.log(data);
-});
+async function fetchData(){
+    const response = await fetch('data.json');
+    if(!response.ok){
+        console.log('Oops! Something went wrong.');
+        return;
+    }
+    data = await response.json();
+    console.log(data);
+}
+
+fetchData();
 
 filterButtons.forEach(button => {
     button.addEventListener('click', () => {
-        console.log(button.textContent.trim())
+        console.log(data)
     })
 });
 
