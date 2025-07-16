@@ -5,10 +5,11 @@
 const filterButtons = document.querySelectorAll('button');
 
 let data;
+let filter;
 
 // Fectching Data
 async function fetchData(){
-    const response = await fetch('data.json');
+    const response = await fetch('/data.json');
     if(!response.ok){
         console.log('Oops! Something went wrong.');
         return;
@@ -31,3 +32,7 @@ filterButtons.forEach(button => {
     })
 });
 
+async function init(){
+    await fetchData();
+}
+init();
