@@ -21,7 +21,13 @@ fetchData();
 
 filterButtons.forEach(button => {
     button.addEventListener('click', () => {
-        console.log(data)
+        if(button.textContent.trim() === "Daily"){
+            console.log("Show daily")
+        } else if(button.textContent.trim() === "Weekly"){
+            console.log("Show weekly")
+        } else{
+            console.log("Show monthly")
+        }
     })
 });
 
