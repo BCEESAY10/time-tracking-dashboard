@@ -344,7 +344,7 @@ body{
     }
 
     .container .card .bottom h1{
-        font-size: calc(2vw+1em);
+        font-size: calc(2vw + 1em);
     }
     
 }
