@@ -312,7 +312,8 @@ body{
     .container .profile figcaption strong {
         display: flex;
         flex-direction: column;
-        font-size: 1.8vw;
+        font-size: calc(2vw + 1em);
+        font-weight: var(--font-light);
     }
     .container .filters{
         margin-top: 0;
